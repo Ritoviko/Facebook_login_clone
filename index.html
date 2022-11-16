@@ -10,67 +10,80 @@
             text-align: center;
             align-items: center;
             align-content: center;
-            padding: 40px;
             background-color: #f0f2f5;
         }
         #login{
-            border: 1px solid rgb(177, 176, 176);
-            border-radius: 4px;
-            padding: 30px;
+            border: 1px solid rgb(207, 206, 206);
+            border-radius: 5px;
+            padding: 8px;
             text-align: center;
-            width: fit-content;
+            width: 33%;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: small;
+            font-size: large;
             background-color: white;
+            margin-top: -44px;
         }
         #log{
-            padding-left: 38%;
+            padding-left: 39.5%;
         }
         #em1{
-            height: 30px;
-            width: 250px;
-            border: 1px solid rgb(177, 176, 176);
-            border-radius: 2px;
+            height: 45px;
+            width: 350px;
+            border: 1px solid rgb(207, 206, 206);
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
         }
         #p1{
-            height: 30px;
-            width: 250px;
-            border: 1px solid rgb(177, 176, 176);
-            border-radius: 2px;
+            height: 45px;
+            width: 350px;
+            border: 1px solid rgb(207, 206, 206);
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         #a1{
-            font-size: x-small;
+            font-size: small;
             color: #1877f2;
             text-decoration: none;
         }
 
         #button1{
-            width: 250px;
-            height: 30px;
+            width: 350px;
+            height: 45px;
             background-color: #1877f2;
             color: aliceblue;
             border: none;
-            border-radius: 2px;
+            border-radius: 5px;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            margin-top: 10px;
+            margin-bottom: 15px;
         }
         h2{
-            font-size: 45px;
-            font-family: arial;
-            font-weight: bolder;
+            font-size: 48px;
+            font-family: Arial rounded MT bold;
             color: #1877f2;
             letter-spacing: -2px;
+            padding: 20px;
         }
         #footer{
+            margin-top: 350px;
             background-color: white;
-            align-items: left;
-            text-align: left;
-            height: 100px;
+            height: 150px;
             word-spacing: 30px;
+            text-align: left;
+            padding-left: 500px;
+        }
+        #d2{
+            width: 75%;
         }
         a{
-            font-size: x-small;
+            font-size: small;
             text-decoration: none;
             color: rgb(139, 137, 137);
             padding: 10px;
@@ -80,12 +93,24 @@
         }
         #a1:hover{
             color: #0d63d4;
+            text-decoration: underline;
         }
         p{
-            font-size: 13px;
+            font-size: large;
+
         }
         #button1:hover{
             background-color: #0d63d4;
+        }
+
+        #button2{
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            border: 1px solid;
+            border-color: rgb(207, 206, 206);
+            color: grey;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -94,27 +119,20 @@
     <div id="log">
     <div id="login">
         <p>Log in to Facebook</p>
-        <input type="email" name="em" id="em1" placeholder="Email Address">
+        <input type="email" name="em" id="em1" placeholder="  Email Address">
         <br>
-        <br>
-        <input type="password" name="pass" id="p1" placeholder="Password">
-        <br>
+        <input type="password" name="pass" id="p1" placeholder="  Password">
         <br>
         <input type="submit" value="Log in" id="button1">
-        <br>
         <br>
         <a href="" id="a1">Sign up for Facebook</a>
     </div>
 </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<div id="d2">
     <div id = "footer">
-        <a href="">English(UK)</a><a href="">हिन्दी</a><a href="">اردو</a><a href="">ਪੰਜਾਬੀ</a><a href="">मराठी</a><a href="">മലയാളം</a><a href="">ಕನ್ನಡ</a><input type="button" value="+">
+        <a href="">English(UK)</a><a href="">हिन्दी</a><a href="">اردو</a><a href="">ਪੰਜਾਬੀ</a><a href="">मराठी</a><a href="">മലയാളം</a><a href="">ಕನ್ನಡ</a><input type="button" value="+" id="button2">
         <hr>
     </div>
+</div>
 </body>
 </html>
